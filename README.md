@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Q&As
 
-Things you may want to cover:
+      1.Who am I?
+      I am Jacob Shan, a RoR newbee, currently learning Web Development with RoR at ALPHA CAMP. :)
 
-* Ruby version
+      2.What am I building?
+      I am building a personal site where I can blog and share examples of my learning process.
 
-* System dependencies
+      3.Why am I doing this?
+      Sharing what I am learning by blogging is a great way to keep tracks with my learnning process. Even show potential employers that I know what I am doing.
 
-* Configuration
+## User Stories
 
-* Database creation
+      - As a user, I want to be able to create posts so that I can share what I am learing on my blog.
 
-* Database initialization
+      - As a user, I want to be able to edit and destroy posts so that I can manage my blog.
 
-* How to run the test suite
+      - As a user, I want to show the visiters or the potential employers examples of my work.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Model
 
-* Deployment instructions
-
-* ...
+      **Post**
+            title:string
+            content:text
